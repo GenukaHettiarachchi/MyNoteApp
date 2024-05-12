@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodle1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Add_Note_Activity">
+
+    <TextView
+        android:id="@+id/addnoteheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/addnoteheading"
+        android:textColor="@color/yellow"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addnoteheading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        android:src="@drawable/baseline_done_24" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/addnoteheading"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/yellow_border"
+        android:backgroundTint="#31363F"
+        android:hint="@string/titleEditText"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/contentEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/yellow_border"
+        android:backgroundTint="#31363F"
+        android:gravity="top"
+        android:hint="@string/contentEdittext"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>

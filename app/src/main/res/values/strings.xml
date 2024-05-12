@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Notes</string>
+
+    <string name="addnoteheading">Add Note</string>
+    <string name="saveButton"> </string>
+    <string name="titleEditText">Title</string>
+    <string name="contentEdittext">Note</string>
+
+    <string name="notesHeading">Notes</string>
+    <string name="notesRecyclerView"> </string>
+    <string name="addButton"> </string>
+
+    <string name="editnoteheading">Edit Note</string>
+    <string name="updatesaveButton"> </string>
+    <string name="updatetitleEditText">Title</string>
+    <string name="updatecontentEdittext">Note</string>
+
+    <string name="titleTextview">Title</string>
+    <string name="updateButton"> </string>
+    <string name="deletButton"> </string>
+    <string name="contentTextView">Content</string>
+
+</resources>
